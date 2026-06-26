@@ -8,7 +8,10 @@ class MobileLayout extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      children: const [ContactInfo(), SizedBox(height: 30), ContactForm()],
+      children: const [
+        ContactInfo(), SizedBox(height: 30),
+        //  ContactForm()
+      ],
     );
   }
 }

@@ -15,7 +15,7 @@ class HeroSection extends StatelessWidget {
       width: double.infinity,
       padding: EdgeInsets.symmetric(
         horizontal: width > 1200 ? 100 : 24,
-        vertical: 80,
+        vertical: 30,
       ),
       child: width > 1000 ? const DesktopHero() : const MobileHero(),
     );

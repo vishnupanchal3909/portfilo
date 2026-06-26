@@ -14,8 +14,10 @@ class ProjectCard extends StatelessWidget {
         borderRadius: BorderRadius.circular(24),
         color: Colors.white.withOpacity(.05),
       ),
+
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisSize: MainAxisSize.min,
         children: [
           Text(
             project.category,
@@ -37,15 +39,14 @@ class ProjectCard extends StatelessWidget {
 
           Text(
             project.description,
-            maxLines: 4,
-            overflow: TextOverflow.ellipsis,
-            style: const TextStyle(color: Colors.white70),
+            style: const TextStyle(color: Colors.white70, height: 1.6),
           ),
 
-          const Spacer(),
+          const SizedBox(height: 20),
 
           Wrap(
             spacing: 8,
+            runSpacing: 8,
             children: project.tech.map((e) => Chip(label: Text(e))).toList(),
           ),
         ],

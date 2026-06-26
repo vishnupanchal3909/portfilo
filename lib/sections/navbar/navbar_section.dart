@@ -90,7 +90,7 @@ class _NavbarSectionState extends State<NavbarSection> {
             ),
           ),
 
-          const SizedBox(width: 30),
+          const SizedBox(width: 10),
 
           ElevatedButton(
             onPressed: () {},
@@ -122,6 +122,7 @@ class _NavbarSectionState extends State<NavbarSection> {
       ),
       child: Row(
         children: [
+          SizedBox(height: 10),
           const LogoWidget(),
 
           const Spacer(),

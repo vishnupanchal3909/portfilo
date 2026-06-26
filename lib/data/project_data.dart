@@ -24,14 +24,7 @@ const projects = [
     image: "assets/images/project_tracker.png",
     description:
         "A developer productivity platform integrated with GitLab, OpenAI and Google Docs. Features role-based access, project assignment, commit tracking, JWT authentication, task validation using AI, and admin dashboards.",
-    tech: [
-      "Flutter Web",
-      "Node.js",
-      "PostgreSQL",
-      "GitLab API",
-      "OpenAI",
-      "JWT",
-    ],
+    tech: ["Flutter Web", "Node.js", "GitLab API", "OpenAI"],
   ),
 
   Project(

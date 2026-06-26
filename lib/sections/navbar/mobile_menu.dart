@@ -37,7 +37,10 @@ class MobileMenu extends StatelessWidget {
   Widget _menuItem(String title) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 12),
-      child: Text(title, style: const TextStyle(fontSize: 18)),
+      child: Text(
+        title,
+        style: const TextStyle(fontSize: 18, color: Colors.white),
+      ),
     );
   }
 }

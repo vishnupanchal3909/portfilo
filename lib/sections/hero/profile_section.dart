@@ -30,7 +30,7 @@ class ProfileSection extends StatelessWidget {
             shape: BoxShape.circle,
             border: Border.all(color: Colors.white.withOpacity(.1)),
             image: const DecorationImage(
-              image: AssetImage("assets/images/profile.png"),
+              image: AssetImage("assets/profiles/profile.jpeg"),
               fit: BoxFit.cover,
             ),
           ),

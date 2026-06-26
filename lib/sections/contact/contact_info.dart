@@ -29,7 +29,7 @@ class ContactInfo extends StatelessWidget {
 
         SizedBox(height: 30),
 
-        SocialSection(),
+        // SocialSection(),
       ],
     );
   }
